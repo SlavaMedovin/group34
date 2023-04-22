@@ -28,6 +28,21 @@ http://162.55.220.72:5005/terminal-hw-request			curl -L http://162.55.220.72:500
 				
 2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
 
+
+
+#!/bin/bash
+
+mkdir dir_script
+cd dir_script
+touch scr1.txt scr2.txt scr3.txt
+mkdir inner_dir_script
+ls -la
+mv  HW_1/dir2/{new2.txt new4.txt}  HW_1/dir3
+
+
+
+
+
 =====================
 
 mkdir dir2 dir3 dir4
