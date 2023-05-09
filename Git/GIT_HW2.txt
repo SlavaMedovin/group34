@@ -24,18 +24,26 @@ AR
 Attachments
 
 
-4. Запушить структуру багрепорта на внешний репозиторий
-5. Вмержить ветку Bag Reports в Main
-6. Запушить main на внешний репозиторий.
-7. В ветке CheckLists набросать структуру чек листа.
-8. Запушить структуру на внешний репозиторий
-9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
+4. Запушить структуру багрепорта на внешний репозиторий  
+
+git add .
+git commit
+git push 
+
+5. Вмержить ветку Bug Reports в Master				 	$ git switch master
+									$ git merge Bug_reports
+
+6. Запушить Master на внешний репозиторий.				$ git push -u origin master
+
+7. В ветке CheckLists набросать структуру чек листа.			$ 1. Id
+									2. Idea to check any funcionality
+									3. ER
+
+
+
+8. Запушить структуру на внешний репозиторий         			Press "Commit changes"
+9. На внешнем репозитории сделать Pull Request ветки CheckLists в main  Open pull reqeust
 10. Синхронизировать Внешнюю и Локальную ветки Main
 
 
-Summary,Description,
-Actual/expected result 
-Attachments 
-Priority 	
-Severity 
-Status 
+
