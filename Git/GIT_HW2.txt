@@ -10,10 +10,10 @@ GitHub. HW_2
 - Mobile testing				$ git branch Mobile_Testing
 
 
-2. Запушить все ветки на внешний репозиторий 				$ git push -u origin 'Postman' 'Jmeter' 'Checklists' 'Charles' 'Bug_Reports' 'Mobile_Testing' 'SQL'
-3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
+2. Запушить все ветки на внешний репозиторий 					$ git push -u origin 'Postman' 'Jmeter' 'Checklists' 'Charles' 'Bug_Reports' 'Mobile_Testing' 'SQL'
 
-$ cat > StructureBugReport.txt
+3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта     $ cat > StructureBugReport.txt	
+					
 ID
 Summary
 Description
@@ -23,12 +23,9 @@ ER
 AR
 Attachments
 
-
-4. Запушить структуру багрепорта на внешний репозиторий  
-
-git add .
-git commit
-git push 
+4. Запушить структуру багрепорта на внешний репозиторий  		$ git add .
+									$ git commit
+									$ git push 
 
 5. Вмержить ветку Bug Reports в Master				 	$ git switch master
 									$ git merge Bug_reports
@@ -43,7 +40,7 @@ git push
 
 8. Запушить структуру на внешний репозиторий         			Press "Commit changes"
 9. На внешнем репозитории сделать Pull Request ветки CheckLists в main  Open pull reqeust
-10. Синхронизировать Внешнюю и Локальную ветки Main
+10. Синхронизировать Внешнюю и Локальную ветки Main   			$ git pull
 
 
 
