@@ -38,8 +38,8 @@ Attachments
 
 
 
-8. Запушить структуру на внешний репозиторий         			Press "Commit changes"
-9. На внешнем репозитории сделать Pull Request ветки CheckLists в main  Open pull reqeust
+8. Запушить структуру на внешний репозиторий         			git add . && git commit -m "add new file" && git push
+9. На внешнем репозитории сделать Pull Request ветки CheckLists в main  Button Compare & Open pull reqeust
 10. Синхронизировать Внешнюю и Локальную ветки Main   			$ git pull
 
 
